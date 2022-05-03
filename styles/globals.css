@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 body {
-  background-color: #0f101d;
+  background-color: #162132;
   color: #fff;
+}
+
+@layer components {
+  .headerLink {
+    @apply cursor-pointer text-base font-medium text-white transition duration-300 hover:text-darkCta;
+  }
+
+  .activeHeaderLink {
+    @apply text-cta;
+  }
 }

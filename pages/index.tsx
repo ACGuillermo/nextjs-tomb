@@ -1,9 +1,26 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
+import { Header } from '../components/Header';
 
 const Home: NextPage = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="">
+      <Head>
+        <title>Lmao.finance</title>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </Head>
+      <Header />
+      <main>
+        {/* TVL Hero */}
+        <section>
+          {/* Token info */}
+          {/* Token info */}
+          {/* Token info */}
+        </section>
+      </main>
+      <footer></footer>
+    </div>
+  );
 };
 
 export default Home;
